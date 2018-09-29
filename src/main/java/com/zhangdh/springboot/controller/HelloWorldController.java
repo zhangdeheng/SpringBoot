@@ -1,6 +1,6 @@
 package com.zhangdh.springboot.controller;
 
-import com.zhangdh.springboot.dao.UserRepository;
+import com.zhangdh.springboot.repositories.jpa.UserRepository;
 import com.zhangdh.springboot.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;

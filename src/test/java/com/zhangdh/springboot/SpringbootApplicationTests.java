@@ -1,6 +1,6 @@
 package com.zhangdh.springboot;
 
-import com.zhangdh.springboot.dao.UserRepository;
+import com.zhangdh.springboot.repositories.jpa.UserRepository;
 import com.zhangdh.springboot.domain.User;
 import org.junit.Assert;
 import org.junit.Test;
