@@ -1,4 +1,4 @@
-package com.zhangdh.springboot.config;
+package com.zhangdh.springboot.filter;
 
 import org.apache.catalina.filters.RemoteIpFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
