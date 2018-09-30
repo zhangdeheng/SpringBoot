@@ -10,6 +10,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class SpringbootApplication {
 
 	public static void main(String[] args) {
+		System.out.println("The service to start.");
 		SpringApplication.run(SpringbootApplication.class, args);
+		System.out.println("The service has started.");
 	}
 }
