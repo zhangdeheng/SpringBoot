@@ -25,7 +25,7 @@ public class PageTest {
     public void testPageQuery() throws Exception {
         int page=1,size=10;
         Sort sort = new Sort(Sort.Direction.DESC, "id");
-        Pageable pageable = new PageRequest(page, size, sort);
+        Pageable pageable =PageRequest.of(page, size, Sort.by(Sort.Direction.ASC,"id"));
 //        userRepository.findALL(pageable);
 //        userRepository.findByUserName("testName", pageable);
     }
